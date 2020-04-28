@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+body {background-color: #000000;}
+
+/*--------------------------------------*/
+
+@font-face {
+    font-family: 'Space Mono', mono space;
+    font-family: 'Forum', cursive;
+    src:   url(<link href="https://fonts.googleapis.com/css2?family=Forum&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">)
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	font-size: 10px;
+} 
+
+body {
+	margin: 5px;
+	font-family: Space Mono, mono space;
+	font-weight: 400; 
+	font-style: normal;
+	font-variant-numeric: oldstyle-nums;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphenate-limit-lines: 2;
+	-webkit-hyphenate-limit-lines: 2;
+	hyphenate-limit-chars: 7 3 3;
+	-webkit-hyphenate-limit-before: 3;
+	-webkit-hyphenate-limit-after: 3;
+	background-color: #000000;
+	/*text-align: justify;*/
+	/*letter-spacing: .02em;*/
+
+}
+
+/*.pull-quote {
+	font-family: 'Forum', cursive;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 27px;
+}*/
+
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}*/
+
+h1 {
+	font-family: 'Space Mono', mono space;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 5px;
+	font-color: #FFFFFF;
+}
+
+h2 {
+	font-family: 'Space Mono', mono space;
+	font-weight: 300;
+	font-size: 1.75rem;
+	line-height: 1.5;
+	width: 60%;
+	position: absolute;
+	top: 20%;
+	padding: 1rem;
+	font-color: #FFFFFF;
+	-webkit-text-fill-color: #FFFFFF;
+}
+
+h3 {
+	font-family: 'Space Mono', mono space;
+	font-weight: 300;
+	font-size: 2rem;
+	line-height: 1.5;
+	width: 60%;
+	position: relative;
+	top: 20%;
+	padding: 1rem;
+	-webkit-text-fill-color: #FFFFFF;
+}
+
+h4 {
+	font-family: 'Space Mono', mono space;
+	font-weight: 300;
+	font-size: 3rem;
+	line-height: 1.5;
+	width: 70%;
+	position: absolute;
+	top: 20%;
+	padding: 1rem;
+	-webkit-text-fill-color: #FFFFFF;
+}
+
+nav {    
+	width: 100%;
+	position: fixed;
+    font-size: 2em;
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Space Mono', mono space;
+    z-index: 10;
+	-webkit-text-fill-color: #FFFFFF;
+	}
+
+nav > * {
+	display: inline-block;
+}
+
+.navigate {
+	position: relative;
+	right: 5rem;
+}
+
+.headline {
+	position: absolute;
+	left: 1rem;
+}
+
+a {
+	text-decoration: none;
+	-webkit-text-fill-color: #FFFFFF;
+}
+
+.basic {
+	width: 17rem;
+	height: 17rem;
+	position: absolute;
+/*	padding: 1em;*/
+}
+
+.form {
+  margin-left: .5em;
+  width: 50rem;
+}
+
+ul {
+  list-style: none;
+   margin-left: .5em;
+  padding: 50px;
+  margin: 50px;
+}
+
+form li + li {
+  margin-top: 10rem;
+   margin-left: .5em;
+}
+
+input:focus, 
+}
+
+text {
+  font-family: 'Space Mono', mono space;
+  text-align: top;
+  font-size: 5em;
+  width: 100em;
+  border: 2px solid black;
+  height: 50rem;
+  font-size: 2em;
+  margin-left: 10em;
+  border-color: #000;
+}
+
+input {
+  font-family: 'Space Mono', mono space;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 1rem;
+  border: 2px solid black;
+  width: 20em;
+  height: 2.5em;
+}
+
+}
+}
+
+*@media only screen and (max-width: 450px) {
+	h1 {
+		font-size: 34px;
+		line-height: 45px;
+	}
+}
+*/
