@@ -179,6 +179,7 @@ a {
 .form {
   margin-left: .5em;
   width: 50rem;
+  padding-top: 60rem;
 }
 
 ul {
@@ -191,9 +192,6 @@ ul {
 form li + li {
   margin-top: 10rem;
    margin-left: .5em;
-}
-
-input:focus, 
 }
 
 text {
@@ -214,18 +212,20 @@ input {
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
-  border: 2px solid black;
+  border: 2px pink;
   width: 20em;
   height: 2.5em;
 }
+
+div class="three"
 
 }
 }
 
 *@media only screen and (max-width: 450px) {
 	h1 {
-		font-size: 34px;
-		line-height: 45px;
+		font-size: 20rem;
+		line-height: 20rem;
 	}
 }
 */
