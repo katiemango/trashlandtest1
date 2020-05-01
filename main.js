@@ -5,11 +5,16 @@ $(document).ready(function(){
 	// Array Database of Trash Facts
   var messages = ["Banana peel", "Plastic wrapping", "Coffee grinds", "Can", "Old spinach", "Straw", "Old papers", "Takeout box", "Wine bottle", "Glass jar", "Yogurt cup", "Paint bottle", "Plastic bag", "Old marker", "Old tank top", "Dead flowers", "Empty candle", "Broken glass", "Used paper towel", "Cut up credit card", "Yesterday's newspaper", "Broken thermometer"];
   var factNumber = 0;
+  var count = 0;
 
   // Double click
     $(".basic").click(function(){
-	if(count % 5 === 0);
-    $(".trashMessage").text(messages[factNumber]);
+    	count++;
+    	console.log(count);
+	if(count % 5 === 0); {
+  		 $(".trashMessage").text(messages[factNumber]);
+   	factNumber++;
+	};
 
 });
 
