@@ -11,7 +11,7 @@ $(document).ready(function(){
     $(".basic").click(function(){
     	count++;
     	console.log(count);
-	if(count % 5 === 0); {
+	if(count % 5 === 0) {
   		 $(".trashMessage").text(messages[factNumber]);
    	factNumber++;
 	};
