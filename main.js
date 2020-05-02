@@ -3,7 +3,7 @@ $(document).ready(function(){
   $( ".basic" ).draggable();
 
 	// Array Database of Trash Facts
-  var messages = ["Banana peel", "Plastic wrapping", "Coffee grinds", "Can", "Old spinach", "Straw", "Old papers", "Takeout box", "Wine bottle", "Glass jar", "Yogurt cup", "Paint bottle", "Plastic bag", "Old marker", "Old tank top", "Dead flowers", "Empty candle", "Broken glass", "Used paper towel", "Cut up credit card", "Yesterday's newspaper", "Broken thermometer"];
+  var messages = ["Banana peel", "Plastic wrapping", "Coffee grinds", "Can", "Old spinach", "Straw", "Old papers", "Takeout box", "Wine bottle", "Glass jar", "Yogurt cup", "Paint bottle", "Plastic bag", "Old marker", "Old tank top", "Dead flowers", "Empty candle", "Broken glass", "Used paper towel", "Cut up credit card", "Yesterday's newspaper", "A piece of plastic", "Plastic wrapping", "Old kale", "Candy wrapper", "Broken glass", "Empty lotion bottle", "Broken thermometer"];
   var factNumber = 0;
   var count = 0;
 
